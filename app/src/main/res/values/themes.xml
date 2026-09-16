@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Pokedex" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+
+        
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+
+        
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        
+        
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Pokedex.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Pokedex.LargeComponent</item>
+        
+        
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.Pokedex.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.Pokedex.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.Pokedex.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Pokedex.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Pokedex.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.Pokedex.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Pokedex.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Pokedex.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.Pokedex.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Pokedex.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Pokedex.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Pokedex.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Pokedex.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Pokedex.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Pokedex.LabelSmall</item>
+    </style>
+
+    <style name="ShapeAppearance.Pokedex.MediumComponent" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">16dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.Pokedex.LargeComponent" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">32dp</item>
+    </style>
+    <style name="TextAppearance.Pokedex.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    
+    <style name="TextAppearance.Pokedex.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="TextAppearance.Pokedex.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.Title.Colored" parent="TextAppearance.Pokedex.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Pokedex.Title.Uncolored" parent="TextAppearance.Pokedex.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

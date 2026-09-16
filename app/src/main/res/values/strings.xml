@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="title_favorite">Favorites</string>
+    <string name="loading_indicator_desc">Loading data</string>
+    <string name="text_types">Types</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_height">Height</string>
+    <string name="text_base_exp">Base Exp</string>
+    <string name="text_abilities">Abilities</string>
+    <string name="text_about">About</string>
+    <string name="text_evolution_chain">Evolution Chain</string>
+    <string name="text_moves">Moves (Top 10)</string>
+    <string name="text_base_stats">Base Stats</string>
+    <string name="text_no_favorites">No Favorites Yet</string>
+    <string name="text_detail_image">Detail Image</string>
+    <string name="text_pokemon_image">Pokemon image</string>
+    <string name="text_more_options">More options</string>
+    <string name="text_added_to_favorites">%1$s added to favorites</string>
+    <string name="text_removed_from_favorites">%1$s removed from favorites</string>
+    <string name="action_undo">Undo</string>
+    <string name="text_height_format">%1$.1f m</string>
+    <string name="text_weight_format">%1$.1f kg</string>
+    <string name="text_species_format">Species: %1$s</string>
+    <string name="text_forms_format">Forms: %1$s</string>
+    <string name="text_forms_empty">Forms: -</string>
+    <string name="action_favorite">Favorite</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mafrilearth.pokedex.ui.home.HomeFragment"
+        android:label="Pokédex"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/stay_dim"
+            app:popEnterAnim="@anim/stay_undim"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_favorite_nav_graph"
+            app:destination="@id/favorite_nav_graph"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/stay_dim"
+            app:popEnterAnim="@anim/stay_undim"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.mafrilearth.pokedex.ui.detail.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="pokemonId"
+            app:argType="integer" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="pokedex://detail/{pokemonId}" />
+    </fragment>
+    
+    <include-dynamic
+        android:id="@+id/favorite_nav_graph"
+        app:graphPackage="com.mafrilearth.pokedex.favorite"
+        app:graphResName="favorite_nav_graph"
+        app:moduleName="favorite" />
+
+</navigation>
